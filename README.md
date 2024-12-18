@@ -1,2 +1,2 @@
 # react-js-
-Learning and testing React JS
+Learning and testing React JS.
