@@ -1,6 +1,9 @@
 services:
   web:
-    image: nginx 
+    image: nginx   
+  build :
+    context: .
+    dockerfile: ../ops/Dockerfile
     volumes:
       - ./src:/usr/share/nginx/html
     ports:
